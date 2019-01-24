@@ -1,0 +1,48 @@
+{
+	"name": "p-interval",
+	"version": "1.0.0",
+	"description": "Promisified setInterval based on p-queue",
+	"license": "MIT",
+	"repository": "gunar/p-interval",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && nyc ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"promise",
+		"interval",
+		"queue",
+		"enqueue",
+		"limit",
+		"limited",
+		"concurrency",
+		"throttle",
+		"throat",
+		"rate",
+		"batch",
+		"ratelimit",
+		"priority",
+		"priorityqueue",
+		"fifo",
+		"job",
+		"task",
+		"async",
+		"await",
+		"promises",
+		"bluebird"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"delay": "^3.1.0",
+		"nyc": "^13.0.1",
+		"xo": "^0.22.0"
+	},
+	"dependencies": {
+		"p-queue": "^3.0.0"
+	}
+}
